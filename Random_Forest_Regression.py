@@ -1,37 +1,3 @@
-#import numpy as np
-#import pandas as pd
-#from sklearn.linear_model import LinearRegression
-#from sklearn.metrics import mean_squared_error
-#from sklearn.model_selection import train_test_split
-#data = pd.read_csv(r"Advertising.csv",index_col = 0)
-#
-#x= data.iloc[:,0:3]
-#y=data.iloc[:,3]
-#
-#xtrain,xtest,ytrain,ytest =train_test_split(x,y,test_size =.33,random_state =1000)
-#
-#linreg=LinearRegression()
-#linreg.fit(xtest,ytest)
-#result =linreg.predict(xtest)
-#
-##print(np.sqrt(mean_squared_error(ytest,result)))
-#
-#
-#
-#data2 = pd.read_csv(r"automobile_filtered.csv",index_col = 0)
-#X =data2.iloc[:,0:25]
-#Y =data2.iloc[:,25]
-#
-#xtrain2,xtest2,train,ytest2 =train_test_split(X,Y,test_size =.33,random_state =1000)
-#
-#linreg=LinearRegression()
-#linreg.fit(xtest2,ytest2)
-#result2 =linreg.predict(xtest2)
-#
-#print(np.sqrt(mean_squared_error(ytest2,result2)))
-
-
-
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
