@@ -19,7 +19,7 @@ data.sex = le.transform(data.sex)
 #removing outliers 
 
 for j in range(1, len(data.columns)):
-    data = data[np.abs(data[data.columns[j]]-data[data.columns[j]].mean())<=(3*data[data.columns[j]].std())]
+    data = data[np.abs(data[data.columns[j]]-data[data.columns[j]].mean())<=(3*data[data.columns[j]].std())]#SOF Rocks! 
 
 #spliting into input and output
 
